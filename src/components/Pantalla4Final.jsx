@@ -43,10 +43,11 @@ className="text-5xl sm:text-7xl text-white font-serif italic tracking-widest mb-
         </a>
 
         <a 
-          href={linkCeleste}
+          href={linkMorado}
           target="_blank"
           rel="noopener noreferrer"
-          className="btn btn-cyan text-lg px-12 py-4 text-center shadow-[0_0_15px_rgba(34,211,238,0.3)] hover:shadow-[0_0_25px_rgba(34,211,238,0.6)]"
+          // Puedes cambiar btn-cyan a una clase morada si la creaste en index.css, por ejemplo btn-purple
+          className="btn btn-cyan text-lg px-12 py-4 text-center shadow-[0_0_15px_rgba(168,85,247,0.3)] hover:shadow-[0_0_25px_rgba(168,85,247,0.6)]"
         >
           Abrir WhatsApp
         </a>
